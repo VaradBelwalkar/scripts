@@ -72,4 +72,6 @@
         !=::Send {+}
         !\::Send {|}
         !/::Send {?}
+        !+f::Send +{UP 4}
+        !+d::Send +{DOWN 4}
        ^!ESC::ExitApp ;Closes the current ahk runtime
