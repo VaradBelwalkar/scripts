@@ -41,8 +41,8 @@
         
         +^i::Send +^{UP}
         +^k::Send +^{DOWN}
-        !f::Send {UP 4}
-        !d:: Send {DOWN 4}
+        !f::Send {DOWN 4}
+        !d:: Send {UP 4}
         !w:: Send [
         !e::Send ]
        !m:: Send +[
