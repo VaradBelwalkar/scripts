@@ -74,8 +74,4 @@
         !/::Send {?}
         !+f::Send +{UP 4}
         !+d::Send +{DOWN 4}
-        Capslock & `;::Send {=}
-        Capslock & j::Send {-}
-        Capslock & k::Send {_}
-       Capslock & l::Send {+}
        ^!ESC::ExitApp ;Closes the current ahk runtime
