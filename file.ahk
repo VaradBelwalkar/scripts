@@ -41,8 +41,8 @@
         
         +^i::Send +^{UP}
         +^k::Send +^{DOWN}
-        !f::Send {DOWN 4}
-        !d:: Send {UP 4}
+        !d::Send {DOWN 4}
+        !f:: Send {UP 4}
         !w:: Send [
         !e::Send ]
        !m:: Send +[
@@ -74,4 +74,7 @@
         !/::Send {?}
         !+f::Send +{UP 4}
         !+d::Send +{DOWN 4}
+        !+m::Send ^c
+        !+n::Send ^x
+        !+o::Send ^v
        ^!ESC::ExitApp ;Closes the current ahk runtime
