@@ -27,8 +27,10 @@
         !+j::Send +{LEFT}   ; j SHIFT + LEFT    (Highlight per character)
         !+l::Send +{RIGHT}  ; l SHIFT + RIGHT   (Highlight per character)
         
-        !+h::Send +{HOME}   ; h SHIFT + ALT + LEFT  (Highlight to beginning of line)
-        !+;::Send +{END}    ; ; SHIFT + ALT + RIGHT (Hightlight to end of line)   
+        !+h::Send ^+{LEFT}   ; h SHIFT + ALT + LEFT  (Highlight to beginning of line)
+        !+;::Send ^+{RIGHT}    ; ; SHIFT + ALT + RIGHT (Hightlight to end of line)   
+        !+,::Send +{HOME}   ; h SHIFT + ALT + LEFT  (Highlight to beginning of line)
+        !+.::Send +{END}   ; h SHIFT + ALT + LEFT  (Highlight to beginning of line)
         ; SHIFT + CTRL + ALT Keypress Implied for all below
         
         !+^j::Send +^{LEFT}     ; j SHIFT + CTRL + LEFT (Highlight per word)
